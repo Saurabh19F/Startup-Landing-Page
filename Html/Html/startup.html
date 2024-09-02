@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innovative Startup</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+        }
+
+        .navbar {
+            background-color: #343a40;
+        }
+
+        .navbar-brand, .nav-link {
+            color: #fff !important;
+        }
+
+        .hero-section {
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .hero-section h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .hero-section p {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+        }
+
+        .hero-section .btn-primary {
+            background-color: #ff7e5f;
+            border-color: #ff7e5f;
+        }
+
+        .mission-section {
+            background-color: #f8f9fa;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .services-section {
+            padding: 50px 0;
+            background-color: #e9ecef;
+        }
+
+        .service-box {
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            margin: 15px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .testimonials-section {
+            background-color: #6c757d;
+            color: white;
+            padding: 50px 0;
+        }
+
+        .cta-section {
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            color: white;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .footer-section {
+            background-color: #343a40;
+            color: white;
+            padding: 20px 0;
+        }
+
+        .footer-section a {
+            color: #ffffff;
+            margin: 0 10px;
+        }
+
+        .footer-section a:hover {
+            text-decoration: none;
+            color: #ff7e5f;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">TechElevate</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <h1>Empowering Your Business with Technology</h1>
+            <p>Delivering innovative solutions to help you achieve your goals.</p>
+            <a href="#contact" class="btn btn-primary btn-lg">Join Us</a>
+        </div>
+    </section>
+
+    <!-- Mission Statement Section -->
+    <section id="about" class="mission-section">
+        <div class="container">
+            <h2>Our Mission</h2>
+            <p>To revolutionize the industry by providing cutting-edge technology and solutions that help businesses thrive in the digital age.</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2 class="text-center">Our Services</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="service-box text-center">
+                        <img src="images/service1.png" alt="Service 1" class="img-fluid mb-3">
+                        <h4>Web Development</h4>
+                        <p>Creating responsive, user-friendly websites that drive engagement and growth.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-box text-center">
+                        <img src="images/service2.png" alt="Service 2" class="img-fluid mb-3">
+                        <h4>Mobile Apps</h4>
+                        <p>Developing powerful mobile applications to reach your audience on the go.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-box text-center">
+                        <img src="images/service3.png" alt="Service 3" class="img-fluid mb-3">
+                        <h4>Cloud Solutions</h4>
+                        <p>Providing scalable cloud solutions that grow with your business.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section">
+        <div class="container">
+            <h2 class="text-center">What Our Clients Say</h2>
+            <div id="testimonialCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active text-center">
+                        <p>"Innovative Startup transformed our online presence and helped us reach new heights."</p>
+                        <p>- Client 1</p>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <p>"Their team is extremely professional and dedicated to delivering top-notch services."</p>
+                        <p>- Client 2</p>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <p>"We couldn’t be happier with the results of our collaboration with Innovative Startup."</p>
+                        <p>- Client 3</p>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#testimonialCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#testimonialCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call-to-Action Section -->
+    <section id="contact" class="cta-section">
+        <div class="container">
+            <h2>Let's Create Something Amazing Together</h2>
+            <p>Contact us today to learn how we can help your business succeed.</p>
+            <a href="mailto:saurabhke4@gmail.com" class="btn btn-outline-light btn-lg">Contact Us</a>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer-section text-center">
+        <div class="container">
+            <p>© 2024 TechElevate. All rights reserved.</p>
+            <p>
+                <a href="#">Privacy Policy</a> |
+                <a href="#">Terms of Service</a>
+            </p>
+            <div>
+                <a href="https://www.facebook.com/officially.criminal.saurabh007/"><img src="images/facebook-icon.png" alt="Facebook" width="30"></a>
+                <a href="https://x.com/saurabhke4"><img src="images/twitter-icon.png" alt="Twitter" width="30"></a>
+                <a href="https://www.instagram.com/the_nerd_saurabh/"><img src="images/instagram-icon.png" alt="Instagram" width="30"></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
